@@ -275,9 +275,9 @@ button:disabled .btn-text {
 }
 
 .result-header {
-    background: rgba(59, 130, 246, 0.12);
-    backdrop-filter: blur(15px);
-    border: 1px solid rgba(59, 130, 246, 0.3);
+    background: rgba(59, 130, 246, 0.25);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(59, 130, 246, 0.5);
     padding: 20px 25px;
     border-radius: 18px;
     margin-bottom: 20px;
@@ -285,10 +285,11 @@ button:disabled .btn-text {
     align-items: center;
     gap: 15px;
     transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .result-header:hover {
-    background: rgba(59, 130, 246, 0.15);
+    background: rgba(59, 130, 246, 0.3);
     transform: translateX(5px);
 }
 
@@ -306,9 +307,9 @@ button:disabled .btn-text {
 }
 
 .main-info {
-    background: rgba(59, 130, 246, 0.08);
-    backdrop-filter: blur(15px);
-    border: 1px solid rgba(59, 130, 246, 0.25);
+    background: rgba(30, 58, 138, 0.4);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(96, 165, 250, 0.4);
     padding: 25px;
     border-radius: 18px;
     margin-bottom: 20px;
@@ -316,22 +317,23 @@ button:disabled .btn-text {
 }
 
 .main-info:hover {
-    background: rgba(59, 130, 246, 0.12);
+    background: rgba(30, 58, 138, 0.5);
 }
 
 .nik-display {
     text-align: center;
     margin-bottom: 20px;
     padding-bottom: 20px;
-    border-bottom: 1px solid rgba(59, 130, 246, 0.25);
+    border-bottom: 2px solid rgba(96, 165, 250, 0.5);
 }
 
 .nik-label {
     font-size: 13px;
-    color: #3b82f6;
+    color: #93c5fd;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 8px;
+    font-weight: 600;
 }
 
 .nik-value {
@@ -351,32 +353,31 @@ button:disabled .btn-text {
 .personal-item {
     text-align: center;
     padding: 15px;
-    background: rgba(59, 130, 246, 0.08);
+    background: rgba(30, 58, 138, 0.35);
     border-radius: 12px;
-    border: 1px solid rgba(59, 130, 246, 0.2);
+    border: 1px solid rgba(96, 165, 250, 0.4);
     transition: all 0.3s ease;
 }
 
 .personal-item:hover {
-    background: rgba(59, 130, 246, 0.15);
+    background: rgba(30, 58, 138, 0.5);
     transform: translateY(-3px);
-    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.2);
 }
 
 .personal-item svg {
     width: 24px;
     height: 24px;
-    fill: #3b82f6;
+    fill: #93c5fd;
     margin-bottom: 8px;
-    filter: drop-shadow(0 2px 6px rgba(59, 130, 246, 0.3));
 }
 
 .personal-label {
     font-size: 12px;
-    color: #3b82f6;
+    color: #93c5fd;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     margin-bottom: 6px;
+    font-weight: 600;
 }
 
 .personal-value {
@@ -387,9 +388,9 @@ button:disabled .btn-text {
 }
 
 .location-section {
-    background: rgba(59, 130, 246, 0.08);
-    backdrop-filter: blur(15px);
-    border: 1px solid rgba(59, 130, 246, 0.25);
+    background: rgba(30, 58, 138, 0.4);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(96, 165, 250, 0.4);
     padding: 25px;
     border-radius: 18px;
     margin-bottom: 20px;
@@ -397,7 +398,7 @@ button:disabled .btn-text {
 }
 
 .location-section:hover {
-    background: rgba(59, 130, 246, 0.12);
+    background: rgba(30, 58, 138, 0.5);
 }
 
 .section-title {
@@ -406,14 +407,13 @@ button:disabled .btn-text {
     gap: 10px;
     margin-bottom: 20px;
     padding-bottom: 15px;
-    border-bottom: 1px solid rgba(59, 130, 246, 0.25);
+    border-bottom: 2px solid rgba(96, 165, 250, 0.5);
 }
 
 .section-title svg {
     width: 24px;
     height: 24px;
-    fill: #3b82f6;
-    filter: drop-shadow(0 2px 8px rgba(59, 130, 246, 0.4));
+    fill: #93c5fd;
 }
 
 .section-title h4 {
@@ -428,10 +428,10 @@ button:disabled .btn-text {
 }
 
 .location-item {
-    background: rgba(59, 130, 246, 0.08);
+    background: rgba(30, 58, 138, 0.35);
     padding: 18px 20px;
     border-radius: 14px;
-    border: 1px solid rgba(59, 130, 246, 0.2);
+    border: 1px solid rgba(96, 165, 250, 0.4);
     display: flex;
     align-items: center;
     gap: 15px;
@@ -439,27 +439,26 @@ button:disabled .btn-text {
 }
 
 .location-item:hover {
-    background: rgba(59, 130, 246, 0.15);
+    background: rgba(30, 58, 138, 0.5);
     transform: translateX(5px);
-    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.2);
 }
 
 .location-icon {
     width: 40px;
     height: 40px;
     min-width: 40px;
-    background: rgba(37, 99, 235, 0.25);
+    background: rgba(59, 130, 246, 0.4);
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid rgba(59, 130, 246, 0.4);
+    border: 1px solid rgba(96, 165, 250, 0.5);
 }
 
 .location-icon svg {
     width: 20px;
     height: 20px;
-    fill: #3b82f6;
+    fill: #93c5fd;
 }
 
 .location-info {
@@ -468,10 +467,11 @@ button:disabled .btn-text {
 
 .location-label {
     font-size: 12px;
-    color: #3b82f6;
+    color: #93c5fd;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     margin-bottom: 4px;
+    font-weight: 600;
 }
 
 .location-value {
@@ -482,16 +482,16 @@ button:disabled .btn-text {
 }
 
 .additional-section {
-    background: rgba(59, 130, 246, 0.08);
-    backdrop-filter: blur(15px);
-    border: 1px solid rgba(59, 130, 246, 0.25);
+    background: rgba(30, 58, 138, 0.4);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(96, 165, 250, 0.4);
     padding: 25px;
     border-radius: 18px;
     transition: all 0.3s ease;
 }
 
 .additional-section:hover {
-    background: rgba(59, 130, 246, 0.12);
+    background: rgba(30, 58, 138, 0.5);
 }
 
 .additional-grid {
@@ -503,32 +503,31 @@ button:disabled .btn-text {
 .additional-item {
     text-align: center;
     padding: 18px 15px;
-    background: rgba(59, 130, 246, 0.08);
+    background: rgba(30, 58, 138, 0.35);
     border-radius: 14px;
-    border: 1px solid rgba(59, 130, 246, 0.2);
+    border: 1px solid rgba(96, 165, 250, 0.4);
     transition: all 0.3s ease;
 }
 
 .additional-item:hover {
-    background: rgba(59, 130, 246, 0.15);
+    background: rgba(30, 58, 138, 0.5);
     transform: translateY(-3px);
-    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.2);
 }
 
 .additional-item svg {
     width: 28px;
     height: 28px;
-    fill: #3b82f6;
+    fill: #93c5fd;
     margin-bottom: 10px;
-    filter: drop-shadow(0 2px 6px rgba(59, 130, 246, 0.3));
 }
 
 .additional-label {
     font-size: 12px;
-    color: #3b82f6;
+    color: #93c5fd;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     margin-bottom: 6px;
+    font-weight: 600;
 }
 
 .additional-value {
@@ -601,4 +600,4 @@ button:disabled .btn-text {
     .additional-grid {
         grid-template-columns: 1fr;
     }
-}
+    }
